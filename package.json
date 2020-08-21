@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/pratyushkushwah/cucumber-api-Automation/issues"
   },
-  "homepage": "https://github.com/pratyushkushwah/cucumber-api-Automation#readme"
+  "homepage": "https://github.com/pratyushkushwah/cucumber-api-Automation#readme",
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }
