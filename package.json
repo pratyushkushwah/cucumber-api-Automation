@@ -2,9 +2,9 @@
   "name": "com.cucumber.api",
   "version": "1.0.0",
   "description": "This repo is for fetch api implementation in cucumber",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "e2e": "yarn  wdio wdio.config.js",
+    "lint": "npx eslint 'src/**/*.js' --fix"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,25 @@
   },
   "homepage": "https://github.com/pratyushkushwah/cucumber-api-Automation#readme",
   "devDependencies": {
-    "cucumber": "^6.0.5"
+    "@wdio/local-runner": "^6.4.0",
+    "@wdio/mocha-framework": "^6.4.0",
+    "@wdio/spec-reporter": "^6.4.0",
+    "@wdio/sync": "^6.4.0",
+    "chromedriver": "^84.0.1",
+    "cucumber": "^6.0.5",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "wdio-chromedriver-service": "^6.0.3"
   },
   "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "@wdio/cli": "^6.4.0",
+    "@wdio/cucumber-framework": "^6.4.0",
+    "eslint-plugin-wdio": "^6.0.12",
     "node-fetch": "^2.6.0"
   }
 }
