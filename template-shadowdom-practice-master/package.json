@@ -1,0 +1,15 @@
+{
+  "name": "template-shadowdom-practice-master",
+  "version": "1.0.0",
+  "description": "This is some really simple Web Components code I hacked together, just so I could better understand how WC works. It mainly focuses on templates but also uses a little Shadow DOM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
